@@ -8,7 +8,7 @@ Requerimientos
 6. La modificacion en la base de datos solo se deben realizar en el objeto “development”, las otras opciones de test y production por ningún motivo deben ser modificadas esto podría alterar el resultado de la prueba y por ende su calificación.
 7. El modelo se debe realizar en sequelize cli con los atributos obligatorios: name, email , password de tipo string.
 
-Historia de usuario
+Historia de usuario: 
 El cliente desea un pagina que pueda validar el correo electronico y la contraseña de sus empleados, informando si se ingresan la informacion de forma incorrecta y solo dejando pasar a los empleados que tienen las credenciales correctas, si tanto el correo como el usuario si es el correcto y es el registrado en la base de datos debe ingresar a una pagina donde se presente el nombre del empleado y su correo electronico.
 
 
