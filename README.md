@@ -9,6 +9,13 @@ Requerimientos
 7. El modelo se debe realizar en sequelize cli con los atributos obligatorios: name, email , password de tipo string.
 
 Historia de usuario: 
-El cliente desea un pagina que pueda validar el correo electronico y la contraseña de sus empleados, informando si se ingresan la informacion de forma incorrecta y solo dejando pasar a los empleados que tienen las credenciales correctas, si tanto el correo como el usuario si es el correcto y es el registrado en la base de datos debe ingresar a una pagina donde se presente el nombre del empleado y su correo electronico.
+El cliente desea un pagina que pueda validar el correo electronico y la contraseña de sus empleados, y que les informe si la informacion que ingresan es incorrecta, si la informacion es correcta que les muestre el nombre y el correo electronico.
 
-
+Product Backlog
+1. Validar en una pagina el nombre y correo de la persona para dejarlo ingresar a la siguiente pagina
+2. Que sea intuitivo para el empleado donde debe ingresar esa información, tanto el email como la contraseña
+3. Informar al empleado cuando la informacion no es correcta pero no decirle si el error esta en el usuario o en la contraseña
+4. Que le permita hacer los intentos que desee
+5. Si todo es correcto permitirle ingresar a la siguiente pagina
+6. En la pagina despues de loguearse debe aparecer el nombre y el correo y un boton para salir de la pagina
+7. El boton de salir, lo debe enviar nuevamente a la pagina inicial donde se logueo.
